@@ -15,7 +15,10 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
       - name: update
+        env:
+          super_secret: ${{ secrets.CW_COOKIE }}
         run: |
           python main.py
       - uses: stefanzweifel/git-auto-commit-action@v4
