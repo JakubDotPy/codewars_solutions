@@ -3,3 +3,5 @@ requests-html
 lxml[html_clean]
 requests
 tqdm
+pillow>=11.0.0
+selenium>=4.27.1
