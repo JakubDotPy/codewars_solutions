@@ -66,6 +66,7 @@ jobs:
         env:
           CW_COOKIE: ${{ secrets.CW_COOKIE }}
         run: |
+          ls
           uv run .github/scripts/take_screenshot.py
 
       - name: Commit and Push Changes
