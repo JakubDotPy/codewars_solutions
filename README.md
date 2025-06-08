@@ -1,4 +1,5 @@
 # Codewars backup
+[![Periodic solutions update](https://github.com/JakubDotPy/codewars_solutions/actions/workflows/periodic_update.yml/badge.svg)](https://github.com/JakubDotPy/codewars_solutions/actions/workflows/periodic_update.yml)
 
 [codewars](http://codewars.com)  
 Scrape your finished katas to files and upload them to a github repo.
